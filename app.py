@@ -2,12 +2,10 @@ import streamlit as st
 import joblib
 model = joblib.load('virat')
 st.title('Virat Centuries')
-input = st.text_input('enter the score and Batting order')
+input = st.text_input('enter the Score and Batting order')
 output = model.predict([input])
-if st.button('PREDICT'):
+if st.button('predict'):
   st.title(output[0])
-         
+      
    
-                                                                              
-    
-    
+                                                                
