@@ -8,6 +8,6 @@ if st.button('PREDICT'):
   st.title(output[0])
          
    
-    
+                                                                              
     
     
