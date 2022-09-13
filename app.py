@@ -1,6 +1,6 @@
-import streamlit as streamlit
+import streamlit as st
 import joblib
-mpdel = joblib.load('virat')
+model = joblib.load('virat')
 st.title('Virat Centuries')
 input = st.text_input('enter the score and Batting order')
 output = model.predict([input])
