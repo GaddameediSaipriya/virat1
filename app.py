@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as streamlit
 import joblib
 mpdel = joblib.load('virat')
