@@ -7,5 +7,5 @@ output = model.predict([input])
 if st.button('predict'):
   st.title(output[0])
       
-                   
+                              
                                                                 
